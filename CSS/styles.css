@@ -1,0 +1,250 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Play', sans-serif;
+        font-size: 18px;
+    }
+    
+    header {
+        width: 100%;
+        height: 650px;
+        background-image: url(../Images/Skewed.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        color: #ffff;
+        text-align: center;
+    }
+    
+    header .textos {
+        margin-top: 152px;
+    }
+    
+    header .titulo {
+        font-size: 85px;
+    }
+    
+    header .subtitulo {
+        font-size: 42px;
+        font-weight: 300;
+        margin-bottom: 32px;
+    }
+    
+    .boton {
+        display: inline;
+        padding: 8px;
+        width: 128px;
+        border: 1px solid #ffff;
+        color: #ffff;
+        font-size: 19px;
+        text-decoration: none;
+        border-radius: 16px;
+        z-index: 50;
+    }
+    
+    .boton:hover {
+        color: #fff;
+        background-color: #15a4fa;
+        transition-property: all;
+        transition-duration: .5s;
+    }
+    
+    .sesgoabajo {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-width: 0 0 35vh 100vw;
+        border-style: solid;
+        border-color: transparent transparent #ffff transparent;
+    }
+    
+    .sesgoarriba {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-width: 0 0 35vh 100vw;
+        border-style: solid;
+        border-color: #ffff transparent transparent transparent;
+    }
+    
+    .acerca__de .container {
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        padding: 52px 0;
+        text-align: center;
+    }
+    
+    .acerca__de .sobre__mi {
+        text-align: center;
+        font-size: 56px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    
+    .acerca__de .slogan {
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 300;
+    }
+    
+    .acerca__de .parrafo {
+        font-weight: normal;
+        margin-bottom: 15px;
+    }
+    
+    .acerca__de a {
+        display: inline-block;
+        color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+        transform: translate(0%, 5%);
+        text-align: center;
+    }
+    
+    .galeria {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+    }
+    
+    .galeria .imagenes {
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .galeria img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .encima {
+        position: absolute;
+        top: 0;
+        transform: translate(520%, 700%);
+        border: 1px solid black;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #2c3e50;
+    }
+    
+    .about__us {
+        font-size: 5em;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .slogan {
+        font-size: 2em;
+        font-weight: normal;
+    }
+    
+    .miembros .container {
+        width: 100%;
+        max-width: 1350px;
+        margin: auto;
+        overflow: hidden;
+        padding: 52px 0;
+        text-align: center;
+    }
+    
+    .cards {
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    .cards img {
+        width: 80%;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+    
+    .fondo .container {
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .patrocinadores {
+        margin-left: 15px;
+    }
+    
+    .clientes {
+        margin-left: 15px;
+    }
+    
+    .clientes img {
+        float: left;
+        width: 30%;
+        margin: 50px 15px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+    
+    footer .container {
+        width: 100%;
+        max-width: 1400px;
+        margin: auto;
+        overflow: hidden;
+        padding: 52px 0;
+        text-align: center;
+    }
+    
+    footer .nombre__contacto,
+    footer .nombre__correo,
+    footer .mensaje {
+        display: inline-block;
+        padding: 15px 20px;
+        margin: 20px 0;
+        background: none;
+        border: 1px solid #999999;
+        color: #999999;
+        border-radius: 3px;
+        font-weight: 300;
+        font-size: 14px;
+        width: 90%;
+        resize: none;
+    }
+    
+    form {
+        margin-top: 40px;
+    }
+    
+    footer .mensaje {
+        min-height: 100px;
+        max-height: 100px;
+    }
+    
+    footer .derecha {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    footer .boton__enviar {
+        display: inline-block;
+        padding: 10px 15px;
+        background: none;
+        border: 1px solid #15a4fa;
+        color: #2c3e50;
+        border-radius: 3px;
+    }
+    
+    footer .boton__enviar:hover {
+        background-color: #15a4fa;
+        color: #fff;
+        transition-property: all;
+        transition-duration: .5s;
+    }
